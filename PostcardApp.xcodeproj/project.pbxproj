@@ -13,6 +13,7 @@
 		52ED83702534C9DB00F42F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ED836E2534C9DB00F42F9D /* Main.storyboard */; };
 		52ED83722534C9DD00F42F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ED83712534C9DD00F42F9D /* Assets.xcassets */; };
 		52ED83752534C9DD00F42F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ED83732534C9DD00F42F9D /* LaunchScreen.storyboard */; };
+		52ED837F2534CA4B00F42F9D /* FontsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ED837E2534CA4B00F42F9D /* FontsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52ED83712534C9DD00F42F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52ED83742534C9DD00F42F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52ED83762534C9DD00F42F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ED837E2534CA4B00F42F9D /* FontsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				52ED83712534C9DD00F42F9D /* Assets.xcassets */,
 				52ED83732534C9DD00F42F9D /* LaunchScreen.storyboard */,
 				52ED83762534C9DD00F42F9D /* Info.plist */,
+				52ED837E2534CA4B00F42F9D /* FontsViewController.swift */,
 			);
 			path = PostcardApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52ED836D2534C9DB00F42F9D /* ViewController.swift in Sources */,
+				52ED837F2534CA4B00F42F9D /* FontsViewController.swift in Sources */,
 				52ED83692534C9DB00F42F9D /* AppDelegate.swift in Sources */,
 				52ED836B2534C9DB00F42F9D /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PTYV272Z4;
 				INFOPLIST_FILE = PostcardApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PTYV272Z4;
 				INFOPLIST_FILE = PostcardApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

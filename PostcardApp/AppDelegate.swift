@@ -10,10 +10,17 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        if let split = window?.rootViewController as? UISplitViewController {
+            split.preferredDisplayMode = .allVisible
+
+            if let nc = split.viewControllers.last as? UINavigationController {
+                nc.topViewController?.navigationItem.leftBarButtonItem = split.displayModeButtonItem
+            }
+
+        }
         return true
     }
 
